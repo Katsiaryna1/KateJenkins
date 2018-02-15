@@ -19,7 +19,7 @@ public class Google_Search_Trump {
         Thread.sleep(3000);
 
         System.out.println(driver.findElement(By.xpath("//*[@id=\"resultStats\"]")).getText());
-
+        driver.quit();
     }
 }
 //f;s
