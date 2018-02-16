@@ -11,7 +11,7 @@ public class Google_Search_Trump {
         System.setProperty("webdriver.chrome.driver", "/Applications/Drivers/chromedriver");
 
         WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
+      //  driver.manage().window().maximize();
         driver.get("https://www.google.com/");
         Thread.sleep(3000);
         driver.findElement(By.xpath("//*[@id=\"lst-ib\"]")).sendKeys("Melania Trump");
